@@ -1,0 +1,10 @@
+runtime: nodejs14
+env: flex
+
+automatic_scaling:
+  cool_down_period_sec: 120
+  cpu_utilization:
+    target_utilization: 0.8
+
+env_variables:
+  NODE_ENV: production
