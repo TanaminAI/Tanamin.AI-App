@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dicoding.tanaminai.view.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+        <action
+            android:id="@+id/act_homeFrag_to_infoFrag"
+            app:destination="@id/informationFragment" />
+
+    <fragment
+        android:id="@+id/predictionFragment"
+        android:name="com.dicoding.tanaminai.view.prediction.PredictionFragment"
+        android:label="fragment_prediction"
+        tools:layout="@layout/fragment_prediction" />
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.dicoding.tanaminai.view.bookmark.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark">
+        <action
+            android:id="@+id/act_bookmarkFrag_to_resultActivity"
+            app:destination="@id/resultActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dicoding.tanaminai.view.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/act_settingsFrag_to_logoutFrag"
+            app:destination="@id/logoutDialogFragment" />
+        <action
+            android:id="@+id/act_settingsFrag_to_themeFrag"
+            app:destination="@id/themeFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/logoutDialogFragment"
+        android:name="com.dicoding.tanaminai.view.settings.LogoutDialogFragment"
+        android:label="fragment_logout_dialog"
+        tools:layout="@layout/fragment_logout_dialog"/>
+    <activity
+        android:id="@+id/resultActivity"
+        android:name="com.dicoding.tanaminai.view.prediction.ResultActivity"
+        android:label="activity_result"
+        tools:layout="@layout/activity_result" />
+    <dialog
+        android:id="@+id/informationFragment"
+        android:name="com.dicoding.tanaminai.view.home.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+    <dialog
+        android:id="@+id/themeFragment"
+        android:name="com.dicoding.tanaminai.view.settings.ThemeFragment"
+        android:label="fragment_theme"
+        tools:layout="@layout/fragment_theme" />
+</navigation>

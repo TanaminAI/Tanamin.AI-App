@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TanaminAi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/green1</item>
+        <item name="colorSecondaryContainer">@color/green2</item>
+        <item name="colorOnPrimaryContainer">@color/green2</item>
+        <item name="android:colorBackground">@color/darker_gray</item>
+        <item name="colorOnBackground">@color/gray</item>
+        <item name="bottomNavigationStyle">@color/dark_gray</item>
+
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+
+    </style>
+</resources>
