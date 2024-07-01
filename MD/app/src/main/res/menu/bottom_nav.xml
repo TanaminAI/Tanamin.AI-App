@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/xml_home"
+        android:icon="@drawable/fragment_home" />
+
+    <item
+        android:id="@+id/predictionFragment"
+        android:title="@string/xml_prediction"
+        android:icon="@drawable/fragment_prediction"/>
+
+    <item
+        android:id="@+id/bookmarkFragment"
+        android:title="@string/xml_bookmark"
+        android:icon="@drawable/fragment_bookmark"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/xml_settings"
+        android:icon="@drawable/fragment_settings"/>
+</menu>
