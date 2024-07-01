@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TanaminAi.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/green1</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tanaminsplash</item>
+        <item name="postSplashScreenTheme">@style/Theme.TanaminAi</item>
+    </style>
+
+
+</resources>

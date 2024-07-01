@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tanamin Ai</string>
+
+    <string name="tflite_is_not_initialized_yet">TfLite belum di inisialisasi</string>
+    <string name="no_tflite_interpreter_loaded">Tidak ada interpreter TFLite yang dimuat</string>
+    <string name="description_result">Deskripsi</string>
+    <string name="maintenance_result">Pemeliharaan</string>
+
+    <!--CustomEditText-->
+    <string name="password_error">Password minimal 8 karakter</string>
+    <string name="email_error">Email tidak valid</string>
+
+    <string name="no_prediction_result">Tidak ada hasil prediksi</string>
+
+    <!--XML-->
+    <!--XML Auth-->
+    <string name="title_login_page">Masuk</string>
+    <string name="message_login_page">Silahkan Masuk untuk melanjutkan</string>
+    <string name="message_signUp_page">Buat akun untuk melanjutkan</string>
+    <string name="email">surel</string>
+    <string name="name">nama</string>
+    <string name="password">kata sandi</string>
+    <string name="signin">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+    <string name="already_have_account">Sudah punya akun?</string>
+    <string name="title_welcome">Selamat Datang</string>
+    <string name="welcome_greetings">Temukan tanaman yang paling cocok untuk jenis dan kondisi tanah Anda dengan sistem rekomendasi kami.</string>
+
+    <!--XML Home-->
+    <string name="xml_home">Beranda</string>
+    <string name="xml_xx">xx</string>
+    <string name="xml_celcius">°c</string>
+    <string name="xml_weather_desc">cuaca saat ini</string>
+    <string name="xml_location">lokasi</string>
+    <string name="xml_information">Informasi</string>
+    <string name="xml_refresh_soil">Perbarui Data</string>
+    <string name="xml_soil_condition">Kondisi Tanah</string>
+    <string name="xml_nitrogen">Nitrogen</string>
+    <string name="xml_n">N</string>
+    <string name="xml_phosphorus">Fosfor</string>
+    <string name="xml_p">P</string>
+    <string name="xml_potassium">Potasium</string>
+    <string name="xml_k">K</string>
+    <string name="xml_humidity">Kelembapan</string>
+    <string name="xml_ph">pH</string>
+    <string name="xml_temperature">Temperatur</string>
+    <string name="xml_logo">logo tanamin ai</string>
+    <string name="xml_current_weather">kondisi cuaca saat ini</string>
+
+    <!--XML Prediction-->
+    <string name="xml_prediction">Prediksi</string>
+    <string name="xml_prediction_desc">Identifikasi tanaman yang\nsesuai dengan kondisi tanah Anda.\nKlik untuk mendapatkan hasil</string>
+    <string name="xml_start_prediction">Mulai Prediksi...</string>
+    <string name="xml_start">Mulai</string>
+
+    <!--XML Act Result-->
+    <string name="xml_result">Hasil</string>
+    <string name="fab_bookmark_result">simpan hasil</string>
+    <string name="xml_predictedat">Diprediksi pada :</string>
+
+    <!--XML Bookmark-->
+    <string name="xml_result_bookmark">Penanda Hasil</string>
+    <string name="xml_your_soil_result_saved">Hasil Tanah yang Tersimpan :</string>
+    <string name="xml_read_more">Baca lebih lanjut</string>
+    <string name="xml_bookmark">Penanda</string>
+
+    <!--XML Settings-->
+    <string name="xml_settings">Pengaturan</string>
+    <string name="xml_profile_name">Profil</string>
+    <string name="xml_grup_name">C241-PS395</string>
+    <string name="xml_settings_name">nama</string>
+    <string name="xml_theme">Tema</string>
+    <string name="xml_app_theme">tema aplikasi</string>
+    <string name="xml_light_dark">terang/gelap</string>
+    <string name="xml_arrow">Panah kanan</string>
+    <string name="xml_language">Bahasa</string>
+    <string name="xml_english_indonesia">Inggris/Indonesia</string>
+    <string name="xml_logout">Keluar</string>
+
+    <!--XML logout dialogue-->
+    <string name="xml_cancel">   batal   </string>
+    <string name="xml_are_you_sure_want_to_logout">Apakah anda yakin ingin keluar?</string>
+    <string name="xml_yes_logout">Ya, keluar</string>
+    <string name="xml_info_desc">Data diperbaharui setiap 5 menit. tekan tombol perbarui data untuk memperbarui data</string>
+
+    <!-- alert -->
+    <string name="alert_close">Tutup</string>
+    <string name="alert_ok">Oke</string>
+    <string name="alert_next">Lanjut</string>
+    <string name="fetching_failed">gagal mengambil data</string>
+    <string name="alert_yes">Ya</string>
+    <string name="alert_no">Tidak</string>
+    <string name="weather_data_is_not_available">data cuaca tidak tersedia</string>
+    <string name="location_format">%1$s, %2$s</string>
+
+    <!-- auth -->
+    <string name="registration_failed">Registrasi Gagal</string>
+    <string name="registration_success">Registrasi Berhasil</string>
+    <string name="please_fill_all_the_fields">Isi semua kolom</string>
+    <string name="pengguna_berhasil_dibuat">pengguna %1$s berhasil dibuat</string>
+    <string name="login_failed">login gagal</string>
+    <string name="login_success">login berhasil</string>
+    <string name="greetings_login">selamat datang di tanamin.ai</string>
+
+
+</resources>
